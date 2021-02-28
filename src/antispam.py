@@ -25,7 +25,6 @@ fonts = {
     "small":            "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘʀꜱᴛᴜᴠᴡʏᴢ",
 }
 
-# Code by GFG: https://www.geeksforgeeks.org/python-get-key-from-value-in-dictionary/"""
 def get_key(val, input_dict):
     for key, value in input_dict.items():
          if val == value:
