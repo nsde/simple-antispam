@@ -34,5 +34,9 @@ def check(text):
     for char in text:
         for font in fonts.values():
             if char in font:
-                return 'Detected font "' + get_key(font, fonts) + '" at character: "' + char + '"'
+                return 'Detected font "' + get_key(font, fonts) + '" at character: "' + char + '".'
     return False
+
+if __name__ == "__main__":
+    print(check("Normal text, will return False"))
+    print(check('𝓕𝐎𝘕𝕋 text, will return "Detected font \'cursive\' at character: \'𝓕\'."'))
