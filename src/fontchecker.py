@@ -34,5 +34,5 @@ def check(text):
     for char in text:
         for font in fonts.values():
             if char in font:
-                return get_key(font, fonts) + ", char: " + char
+                return 'Detected font "' + get_key(font, fonts) + '" at character: "' + char + '"'
     return False
