@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'fontcheck',
   packages = ['fontcheck'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'A very simple program to check if a text contains special fonts..',
   author = 'nsde',
