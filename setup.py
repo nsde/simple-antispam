@@ -4,7 +4,7 @@ setup(
   packages = ['fontcheck'],
   version = '0.1',
   license='MIT',
-  description = 'A very simple program to check if a text contains special 𝒻𝑜𝓃𝓉𝓈.',
+  description = 'A very simple program to check if a text contains special fonts..',
   author = 'nsde',
   author_email = 'neostyxde@gmail.com',
   url = 'https://github.com/nsde',
