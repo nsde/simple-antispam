@@ -8,7 +8,7 @@ setup(
   author = 'nsde',
   author_email = 'neostyxde@gmail.com',
   url = 'https://github.com/nsde',
-  download_url = 'https://github.com/nsde/fontcheck/archive/v0.1.tar.gz',
+  download_url = 'https://github.com/nsde/fontcheck/archive/v0.2.tar.gz',
   keywords = ['FONT', 'FONTCHECK', 'CHECK'],
   install_requires=[],
   classifiers=[
