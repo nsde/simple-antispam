@@ -20,7 +20,7 @@ This program supports most of the fonts used in: https://www.fancytextguru.com/c
 
 # 🔨 Usage
 ```py
-import fontchecker
-print("No detection: " + str(check("I am using no font."))) # Output: 'False'
-print("Detection: " + str(check("Hello, I am using a 🅵🅾🅽🆃!"))) # Output: 'inverted_squares, char: 🅵' 
+import fontcheck
+print("No detection: " + str(fontcheck.check("I am using no font."))) # Output: 'False'
+print("Detection: " + str(fontcheck.check("Hello, I am using a 🅵🅾🅽🆃!"))) # Output: 'inverted_squares, char: 🅵' 
 ```
